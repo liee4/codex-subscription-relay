@@ -27,7 +27,7 @@ API 密钥：本机 api-key.txt 文件的内容
 模型名称：运行 .\check.ps1 后，从返回的模型中选择
 ```
 
-以后启动服务可直接双击 `开启中转.cmd`，窗口会显示启动结果；也可以运行 `.\start.ps1`。运行 `.\stop.ps1` 可停止本机服务。请妥善保管 `config.yaml`、`api-key.txt`、`auths/` 和 `logs/`。`.gitignore` 已排除这些文件和目录，发布代码前仍应检查每次提交。
+以后启动服务可直接双击 `开启中转.cmd`，窗口会显示启动结果；也可以运行 `.\start.ps1`。需要停止服务时，双击 `关闭中转.cmd`，或运行 `.\stop.ps1`。请妥善保管 `config.yaml`、`api-key.txt`、`auths/` 和 `logs/`。`.gitignore` 已排除这些文件和目录，发布代码前仍应检查每次提交。
 
 ## 从其他设备访问
 
