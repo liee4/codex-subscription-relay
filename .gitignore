@@ -1,0 +1,13 @@
+/auths/
+/logs/
+/tools/
+/config.yaml
+/api-key.txt
+/server.pid
+/cli-proxy-api.exe
+/*.zip
+/.env
+/.env.*
+*.log
+*.db
+
