@@ -1,5 +1,5 @@
-# Run `node init-config.mjs` to create your private config.yaml and api-key.txt.
-# This file contains no working credential.
+# 运行 `node init-config.mjs`，生成仅供自己使用的 config.yaml 和 api-key.txt。
+# 本示例文件不含可用的凭证。
 config-version: 8
 server:
   host: "127.0.0.1"
