@@ -1,0 +1,16 @@
+# Run `node init-config.mjs` to create your private config.yaml and api-key.txt.
+# This file contains no working credential.
+config-version: 8
+server:
+  host: "127.0.0.1"
+  port: 8317
+management:
+  allow-remote: false
+  secret-key: ""
+  disable-control-panel: true
+access:
+  api-keys:
+    - "REPLACE_WITH_RANDOM_PRIVATE_KEY"
+oauth:
+  auth-dir: "REPLACE_WITH_ABSOLUTE_LOCAL_AUTH_DIRECTORY"
+
